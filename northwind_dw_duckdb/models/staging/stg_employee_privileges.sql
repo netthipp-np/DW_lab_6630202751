@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source('northwind', 'customer - customer') }}
+    select * from {{ source('northwind', 'employee_privileges - employee_privileges') }}
 )
 select
     *,

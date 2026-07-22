@@ -1,7 +1,6 @@
 with source as(
    select * 
-   from {{ source('northwind', 'products - products') }}
-   where supplier_ids not like '%;%'
+   from {{ source('northwind', 'employees') }}
 )
     
 select
