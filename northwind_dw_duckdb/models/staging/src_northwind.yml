@@ -10,4 +10,5 @@ sources:
     tables:
       - name: customer - customer                 # Maps straight to datasets/customer.csv
         description: "Customer data from the Northwind dataset"
-      - name: 
+        name: products - products          # Maps straight to datasets/customer.csv
+        description: "Products data from the Northwind dataset"
