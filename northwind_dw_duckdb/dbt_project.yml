@@ -35,4 +35,5 @@ models:
       +materialized: view
     staging:
       +materialized: table
-  
+    datawarehouse:
+      +materialized: table

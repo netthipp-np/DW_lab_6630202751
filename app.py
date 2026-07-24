@@ -43,7 +43,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-title">📊 Northwind DW Explorer</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-title">📊 Northwind DW Explorer(663020275-1 Netthip Phrommasit)</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Inspect and preview raw datasets, staging tables, and dimension views in dev.duckdb</div>', unsafe_allow_html=True)
 
 # Fetch all tables
